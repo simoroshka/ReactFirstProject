@@ -1,19 +1,11 @@
-.search-bar {
-  text-align: center;
-  margin: 20px 0 25px 0;
-}
-
-.search-bar input {
-  width: 70%;
-  border-radius: 4px;
-}
+@import 'scss/search_bar';
 
 .video-item img {
   max-width: 64px;
 }
 
 .video-detail {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .video-detail .details {
@@ -25,11 +17,12 @@
 
 .list-group {
   margin-top: 20px;
-  padding: 0 !important;
+  padding: 0;
 }
 
 .list-group-item {
   cursor: pointer;
+  display: block;
 }
 
 .list-group-item:hover {
