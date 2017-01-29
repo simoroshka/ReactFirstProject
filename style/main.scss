@@ -1,30 +1,16 @@
-@import 'scss/search_bar';
+$background-dark: #23262b;
+$background-light: #575c63;
+$border-color-dark: #000;
+$border-color-light: #7c828c;
+$font-color: #fff;
 
-.video-item img {
-  max-width: 64px;
-}
+@import 'scss/search-bar';
+@import 'scss/list';
+@import 'scss/details';
 
-.video-detail {
-  padding: 0;
-}
 
-.video-detail .details {
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
 
-.list-group {
-  margin-top: 20px;
-  padding: 0;
-}
 
-.list-group-item {
-  cursor: pointer;
-  display: block;
-}
-
-.list-group-item:hover {
-  background-color: #eee;
+body {
+  background: $background-dark;
 }

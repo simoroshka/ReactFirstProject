@@ -1,0 +1,29 @@
+.list-group {
+  padding: 0 0 0 20px;
+  margin-bottom: 50px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  display: block;
+  background: $background-dark;
+  border: 1px solid $background-light;
+  color: $font-color;
+  transition: background 0.5s;
+
+  &:first-child, &:last-child {
+    border-radius: 0;
+  }
+  .media-left {
+    display: block;
+  }
+
+  .media-object {
+    display: block;
+    margin: 5px auto;
+  }
+}
+
+.list-group-item:hover {
+  background: $background-light;
+}

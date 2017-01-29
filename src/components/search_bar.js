@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
   constructor (props) {
     super(props);
-    this.state = { term: '' };
+    this.state = { term: 'hedgehogs' };
   }
 
   render () {
     return (
-      <div className="search-bar col-md-8">
+      <div className="search-bar col-md-9">
         <input
           value={this.state.term}
           onChange={event => this.onInputChange(event.target.value)} />

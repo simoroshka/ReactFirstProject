@@ -1,0 +1,23 @@
+.video-detail {
+  padding: 0;
+  border: 1px solid $background-light;
+}
+
+.video-detail .details {
+  padding: 20px;
+  margin-top: 0;
+  border: none;
+  border-radius: 0;
+  color: $font-color;
+  background: $background-dark;
+
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    color: $background-light;
+  }
+}
